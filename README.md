@@ -1,0 +1,69 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gossip Girls - Campus Buzz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Gossip Girls</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="slideshow">
+    <img src="images/festival.jpg" class="slide active" alt="Spring Beats Festival">
+    <img src="images/rowing.jpg" class="slide" alt="Sunset Rowing Cup">
+    <img src="images/party.jpg" class="slide" alt="Neon Lights Party">
+    <div class="controls">
+      <button id="prev">❮</button>
+      <button id="next">❯</button>
+    </div>
+  </section>
+
+  <section class="events">
+    <div class="event">
+      <h2>Spring Beats Festival</h2>
+      <button class="rsvp">RSVP</button>
+      <div class="comments">
+        <input type="text" placeholder="Leave a comment...">
+        <button class="comment-btn">Post</button>
+        <ul class="comment-list"></ul>
+      </div>
+    </div>
+
+    <div class="event">
+      <h2>Sunset Rowing Cup</h2>
+      <button class="rsvp">RSVP</button>
+      <div class="comments">
+        <input type="text" placeholder="Leave a comment...">
+        <button class="comment-btn">Post</button>
+        <ul class="comment-list"></ul>
+      </div>
+    </div>
+
+    <div class="event">
+      <h2>Neon Lights Party</h2>
+      <button class="rsvp">RSVP</button>
+      <div class="comments">
+        <input type="text" placeholder="Leave a comment...">
+        <button class="comment-btn">Post</button>
+        <ul class="comment-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gossip Girls Campus Life</p>
+  </footer>
+</body>
+</html>
